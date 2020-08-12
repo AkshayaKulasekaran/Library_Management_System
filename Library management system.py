@@ -1,3 +1,5 @@
+## NOTES FOR PORGATE PYTHON WORKSHOP
+
 #Organizer: Ankita Mishra from Progate
 #Speaker: Disha Pongati from Delloite
 
@@ -6,7 +8,7 @@
 #Today, we'll be thinking about the library management systems!
 #repl.it python -> online python environment
 
-#list()->[], tuple()->(), dict()->{}
+#Note: list()->[], tuple()->(), dict()->{}
 #Librarian: calling function, LMS: called functions
 
 library={'Networking':10, 'Harry Potter' :20, 'Cyber Security' :5}
