@@ -11,7 +11,7 @@
 #Note: list()->[], tuple()->(), dict()->{}
 #Librarian: calling function, LMS: called functions
 
-library={'Networking':10, 'Harry Potter' :20, 'Cyber Security' :5}
+library={'Networking 101' : 10, 'Harry Potter' : 20, 'Cyber Security' : 5} # 'book_title' : number_of_copies
 def printlib():
     print(library)
 
@@ -27,7 +27,7 @@ def add_book(book_name, num_copies):
 
 #to return a book
 def return_book(book_name):
-    library[book_name]= library[book_name]+1
+    library[book_name] = library[book_name] + 1
 
 
 #to update the number of copies
