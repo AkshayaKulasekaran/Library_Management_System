@@ -8,4 +8,6 @@ books = { "Harry Potter" : 10,
 "Wings of Fire" : 3,
 "A Bug's Life" : 9,
 "Bilbo Baggins" : 9,
-"Children's Fairytales" : 3 }
+"Grimm's Fairytales" : 3,
+"A Coder's Climb" : 0
+}
