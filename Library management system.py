@@ -1,34 +1,17 @@
-## NOTES FOR PORGATE PYTHON WORKSHOP
+import books.py
 
-#Organizer: Ankita Mishra from Progate
-#Speaker: Disha Pongati from Delloite
+library = books
 
-#Olden day library -> Card catalogue
-#Now, we have library management systems
-#Today, we'll be thinking about the library management systems!
-#repl.it python -> online python environment
-
-#Note: list()->[], tuple()->(), dict()->{}
-#Librarian: calling function, LMS: called functions
-
-library={'Networking 101' : 10, 'Harry Potter' : 20, 'Cyber Security' : 5} # 'book_title' : number_of_copies
 def printlib():
     print(library)
-
-#Think about what you want to do and add functions accordingly
 
 #function to add x number of books
 def add_book(book_name, num_copies):
     library[book_name] = num_copies #new key-value pair
 
-
-#if __name__ == __main__:
-#    add_book('DBMS',3)
-
 #to return a book
 def return_book(book_name):
     library[book_name] = library[book_name] + 1
-
 
 #to update the number of copies
 def update_cop(book_name, extra_cop):
@@ -48,9 +31,6 @@ def search_book(book_name):
         print("Availible")
     else:
         print("Not Availible")
-
-
-
 
 
 # Let's try something along the lines of MVC
